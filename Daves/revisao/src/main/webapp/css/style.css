@@ -10,13 +10,14 @@ body{
 
 .container{
     margin: 0 auto;
-    width: 90vw;
+    width: 50vw;
     margin-top: 100px;
+    padding: 10px;
     border-radius: 15px;
     background-color: #fff;
     border: red 1px solid;
-    height: 90vh;
-    box-shadow: 4px 4px 4px RGB(0,0,0,0.5);
+    height: 70vh;
+    box-shadow: 4px 4px 4px RGB(0,0,0,0.7);
     display: flex;
     flex-direction: column;
 }
@@ -25,5 +26,51 @@ body{
 }
 .container>div:nth-child(3){
     background-color: #a58;
+}
 
+.form{
+    width: 100%;
+    height: 100%;
+}
+
+.row input{
+    size: 22px;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.row input:focus{
+    background-color: #0A0;
+}
+
+
+.row{
+    display: grid;
+    grid-gap: 8px;
+    padding: 10px;
+    grid-columns: 50px 1fr;
+    grid-template-areas:
+    "v11 v12 "
+    "v21 v22 "
+    "v31 v31 ";
+}
+.row label:nth-child(1){
+    grid-area: v11;
+}
+.row label:nth-child(3){
+    grid-area: v21;
+}
+.row label:nth-child(5){
+    grid-area: v31;
+    text-align: center;
+}
+.row label:nth-child(5) button{
+    width: 100px;
+    padding: 15px;
+}
+.row input:nth-child(2){
+    grid-area: v12;
+}
+.row input:nth-child(4){
+    grid-area: v22;
 }

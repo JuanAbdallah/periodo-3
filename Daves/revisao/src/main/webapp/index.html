@@ -6,16 +6,32 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
- <div class="container">
-     <div class="header">
-         <h1>Calcular</h1>
-     </div>
-     <div class="body">
-         <div class="bodyContainer"></div>
-     </div>
-     <div class="footer">
-         <h2>footer</h2>
-     </div>
- </div>
+<div class="container">
+    <div class="header">
+        <h1>Calcular</h1>
+    </div>
+    <div class="body">
+        <form action="/primeiro" METHOD="post">
+            <fieldset>
+                <legend>Calculadora</legend>
+                <div class="form">
+                    <div class="row">
+                        <label for="">valor 1</label>
+                        <input type="text" name="valor1">
+                        <label for="">valor 2</label>
+                        <input type="text" name="valor2">
+                        <label for="">
+                            <button>OK</button>
+                        </label>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <div class="footer">
+        <h2>footer</h2>
+    </div>
+</div>
+
+<!--<script src="js/script.js"></script>-->
 </body>
 </html>

@@ -1,5 +1,5 @@
-import ArvoreBinaria from "./ArvoreBinaria";
-import No from "./No";
+import ArvoreBinaria from "./ArvoreBinaria.js";
+import No from "./No.js";
 
 let arvoreB = new ArvoreBinaria("A");
 
@@ -15,6 +15,12 @@ noB.adicionaFilhoEsquerda(noF);
 noA.adicionaFilhoDireita(noC);
 noC.adicionaFilhoEsquerda(noD);
 noC.adicionaFilhoDireita(noE);
+
+arvoreB.buscarPPreOrdem();
+console.log("");
+arvoreB.buscarIInOrdem();
+console.log("");
+arvoreB.buscarPPosOrdem();
 
 
 
