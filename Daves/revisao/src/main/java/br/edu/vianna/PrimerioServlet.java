@@ -1,5 +1,6 @@
-package br.edu.vianna.servlet;
+package br.edu.vianna;
 
+import br.edu.vianna.model.Calculadora;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -27,6 +28,11 @@ public class PrimerioServlet extends HttpServlet {
             String v2 = req.getParameter("cpValor2");
             String btn = req.getParameter("btn");
 
+            Calculadora c = new Calculadora();
+            c.setValor1(Integer.parseInt(v1));
+            c.setValor2(Integer.parseInt(v2));
+            c.setOperador(btn);
+            //1º FORMA
             String html = "<!DOCTYPE html>\n" +
                     "<html lang=\"en\">\n" +
                     "<head>\n" +
@@ -40,7 +46,7 @@ public class PrimerioServlet extends HttpServlet {
                     "        <h1>Calcular</h1>\n" +
                     "    </div>\n" +
                     "    <div class=\"body\">\n" +
-                    "<h1>O resultado é:</h1>\n"+
+                    "<h1>O resultado é::"+c.operacao()+ "</h1>\n"+
                     "    </div>\n" +
                     "    <div class=\"footer\">\n" +
                     "        <h2>footer</h2>\n" +

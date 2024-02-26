@@ -1,4 +1,5 @@
 package br.edu.vianna.model;
 
-public class ETipoOperador {
+public enum ETipoOperador {
+    Mais, Menos, Multiplicacao, Divisao
 }
