@@ -18,9 +18,11 @@ noC.adicionaFilhoDireita(noE);
 
 arvoreB.buscarPPreOrdem();
 console.log("");
-arvoreB.buscarIInOrdem();
+arvoreB.buscarPInOrdem();
 console.log("");
 arvoreB.buscarPPosOrdem();
+
+arvoreB.buscarL();
 
 
 
