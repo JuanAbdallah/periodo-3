@@ -1,5 +1,41 @@
 ﻿using System.Runtime.CompilerServices;
 using Microsoft.Data.Sqlite;
+using Dapper;
+using Microsoft.VisualBasic;
+using Teste;
+
+// var obj = new Contato{
+//         Id = "5",
+//         Nome = "Zé",
+//         Email = "ze@gmail.com"
+//     };
+    
+    //reflection
+    // var tipo = obj.GetType();
+    // Console.WriteLine(tipo.FullName);
+    // foreach(var prop in tipo.GetProperties()){
+    //     Console.WriteLine(prop.Name + ":" + prop.GetValue(obj));
+    // }
+
+    // var prop = tipo.GetProperty("Id");
+
+    // if(prop != null)
+    // Console.WriteLine($"{prop.Name}: {prop.GetValue(obj)}");
+
+/*using (var conexao = new SqliteConnection("Data Source=db/dados.db")){
+    conexao.Open();
+    
+    var obj = new Contato{
+        Id = "5",
+        Nome = "Zé",
+        Email = "ze@gmail.com"
+    };
+
+    const string sql = "INSERT INTO Contato(id, nome, email) VALUES (@Id, @Nome, @Email)";
+    
+    conexao.Execute(sql, obj);
+}*/
+
 // conexao.Close(); "using" o torna desnecessario. 
 /*using(var conexao = new SqliteConnection("Data Source=db/dados.db")){
 
@@ -21,7 +57,7 @@ using Microsoft.Data.Sqlite;
 
 
 }*/
-using(var conexao = new SqliteConnection("Data Source=db/dados.db")){
+/*using(var conexao = new SqliteConnection("Data Source=db/dados.db")){
     conexao.Open();
 
     var cmd = conexao.CreateCommand();
@@ -33,4 +69,4 @@ using(var conexao = new SqliteConnection("Data Source=db/dados.db")){
     }
     dr.Close();
     
-}
+}*/

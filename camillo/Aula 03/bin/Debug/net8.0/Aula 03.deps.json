@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v8.0": {
       "Aula 03/1.0.0": {
         "dependencies": {
+          "Dapper": "2.1.28",
           "Microsoft.Data.Sqlite": "8.0.2"
         },
         "runtime": {
           "Aula 03.dll": {}
+        }
+      },
+      "Dapper/2.1.28": {
+        "runtime": {
+          "lib/net7.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.28.55233"
+          }
         }
       },
       "Microsoft.Data.Sqlite/8.0.2": {
@@ -177,6 +186,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Dapper/2.1.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ha49pzOEDmCPkMxwfPSR/wxa/6RD3r42TESIgpzpi7FXq/gNVUuJVEO+wtUzntNRhtmq3BKCl0s0aAlSZLkBUA==",
+      "path": "dapper/2.1.28",
+      "hashPath": "dapper.2.1.28.nupkg.sha512"
     },
     "Microsoft.Data.Sqlite/8.0.2": {
       "type": "package",

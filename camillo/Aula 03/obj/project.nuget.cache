@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "sn7vYP19UdClvpE6MoYSyFPaPAtJ+sKdoe887u9D1Et8fxALcMAwqZuOEQYPxD2mCyZdES6pNPjdgmVAOsfdHw==",
+  "dgSpecHash": "jyjKuk2kMWzQnaXV8yTpCsPMGyt8LuRGeZ4ETefsYYWNF4okYcb3huAJmui8QTgnX9DeRRy1SQcFGXyFyf3ztw==",
   "success": true,
   "projectFilePath": "/home/aluno/Área de Trabalho/periodo-3/camillo/Aula 03/Aula 03.csproj",
   "expectedPackageFiles": [
+    "/home/aluno/.nuget/packages/dapper/2.1.28/dapper.2.1.28.nupkg.sha512",
     "/home/aluno/.nuget/packages/microsoft.data.sqlite/8.0.2/microsoft.data.sqlite.8.0.2.nupkg.sha512",
     "/home/aluno/.nuget/packages/microsoft.data.sqlite.core/8.0.2/microsoft.data.sqlite.core.8.0.2.nupkg.sha512",
     "/home/aluno/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.6/sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",

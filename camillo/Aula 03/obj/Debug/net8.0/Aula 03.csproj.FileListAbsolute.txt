@@ -39,3 +39,4 @@
 /home/aluno/Área de Trabalho/periodo-3/camillo/Aula 03/obj/Debug/net8.0/Aula 03.pdb
 /home/aluno/Área de Trabalho/periodo-3/camillo/Aula 03/obj/Debug/net8.0/Aula 03.genruntimeconfig.cache
 /home/aluno/Área de Trabalho/periodo-3/camillo/Aula 03/obj/Debug/net8.0/ref/Aula 03.dll
+/home/aluno/Área de Trabalho/periodo-3/camillo/Aula 03/bin/Debug/net8.0/Dapper.dll
