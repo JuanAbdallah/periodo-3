@@ -1,5 +1,4 @@
-package br.edu.vianna;
-
+package br.edu.vianna.servlet;
 import br.edu.vianna.model.Calculadora;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -9,30 +8,27 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet("/primeiro")
+@WebServlet(urlPatterns = {"/primeiro"})  // "primeiro" chamado retorna a resposta (response), nome pelo que é reconhecido
+public class PrimeiroServlet extends HttpServlet {
 
-public class PrimerioServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resposta(req, resp);
-    }
-
-    @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resposta(req, resp);
+        //super.doGet(req, resp);
+        resposta(req,resp);
     }
 
     private void resposta(HttpServletRequest req, HttpServletResponse resp) {
-        try {
+        try{
+
             String v1 = req.getParameter("cpValor1");
             String v2 = req.getParameter("cpValor2");
-            String btn = req.getParameter("btn");
+            String v3 = req.getParameter("btn");
 
             Calculadora c = new Calculadora();
             c.setValor1(Integer.parseInt(v1));
             c.setValor2(Integer.parseInt(v2));
-            c.setOperador(btn);
-            //1º FORMA
+            c.setOperador(v3);
+            // 1° forma de resposta, nada prático
             String html = "<!DOCTYPE html>\n" +
                     "<html lang=\"en\">\n" +
                     "<head>\n" +
@@ -46,19 +42,29 @@ public class PrimerioServlet extends HttpServlet {
                     "        <h1>Calcular</h1>\n" +
                     "    </div>\n" +
                     "    <div class=\"body\">\n" +
-                    "<h1>O resultado é::"+c.operacao()+ "</h1>\n"+
+
+                    " <h1>O resultado é "+c.operacao()+"</h1> " +
+
                     "    </div>\n" +
+                    "\n" +
                     "    <div class=\"footer\">\n" +
                     "        <h2>footer</h2>\n" +
                     "    </div>\n" +
                     "</div>\n" +
-                    "\n" +
-                    "<!--<script src=\"js/script.js\"></script>-->\n" +
+                    "    <script src= \"./script.js\"></script>\n" +
                     "</body>\n" +
-                    "</html>";
+                    "\n" +
+                    "\n" +
+                    "</html>\n";
             resp.getWriter().println(html);
-        } catch (IOException e) {
-            System.out.println("erro!");
+        }catch (IOException e){
+            System.out.println("Deu ruim");
         }
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        //super.doPost(req, resp);
+        resposta(req,resp);
     }
 }

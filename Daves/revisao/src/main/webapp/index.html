@@ -11,52 +11,77 @@
         <h1>Calcular</h1>
     </div>
     <div class="body">
-        <form action="/primeiro" METHOD="GET">
+        <form action="/primeiro" METHOD="post" >
             <fieldset>
-                <legend>Calculadora sem Ajax</legend>
-                <div class="form">
+                <legend>Calculadora</legend>
+                <div class="form" >
                     <div class="row">
-                        <label for="">valor 1</label>
-                        <input type="text" name="valor1">
-                        <label for="">valor 2</label>
-                        <input type="text" name="valor2">
+                        <label for="">A</label>
+                        <input type="text" name = "cpValor1">
+                        <label for="">A</label>
+                        <input type="text" name = "cpValor2">
                         <label for="">
-                            <button name="btn" value="+">+</button>
-                            <button name="btn" value="-">-</button>
-
-                        </label>
-                </div>
-                </div>
-            </fieldset>
-
-        </form>
-
-        <form METHOD="GET">
-            <fieldset>
-                <legend>Calculadora Com Ajax</legend>
-                <div class="form">
-                    <div class="row ajax">
-                        <label for="">valor 1</label>
-                        <input type="text" name="valor1">
-                        <label for="">valor 2</label>
-                        <input type="text" name="valor2">
-                        <label for="">
-                            <button name="btn" value="+">+</button>
-                            <button name="btn" value="-">-</button>
-
+                            <button name = "btn" value = "+" >
+                                +
+                            </button>
+                            <button name = "btn" value = "-" >
+                                -
+                            </button>
                         </label>
                     </div>
                 </div>
             </fieldset>
-
         </form>
+        <form METHOD="GET" >
+            <fieldset>
+                <legend>Calculadora com Ajax</legend>
+                <div class="form" >
+                    <div class="row ajax">
+                        <label for="">Valor 1</label>
+                        <input type="number" name = "cpValor1">
+                        <label for="">Valor 2</label>
+                        <input type="number" name = "cpValor2">
+                        <label for="">
+                            <button name = "btn" value = "+" type="button">
+                                +
+                            </button>
+                            <button name = "btn" value = "-" type="button">
+                                -
+                            </button>
+                        </label>
+                        <h2 style="display: none"></h2>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <form action="/terceiro" METHOD="POST" >
+            <fieldset>
+                <legend>Calculadora Usando Redirect</legend>
+                <div class="form" >
+                    <div class="row">
+                        <label for="">Valor 1</label>
+                        <input type="number" name = "cpValor1">
+                        <label for="">Valor 2</label>
+                        <input type="number" name = "cpValor2">
+                        <label for="">
+                            <button name = "btn" value = "+" >
+                                +
+                            </button>
+                            <button name = "btn" value = "-" >
+                                -
+                            </button>
+                        </label>
+                        <h2 style="display: none"></h2>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
 
-    </div>
-    <div class="footer">
-        <h2>footer</h2>
-    </div>
+
 </div>
 
-<script src="js/ajax.js.js"></script>
 </body>
+
+
 </html>
