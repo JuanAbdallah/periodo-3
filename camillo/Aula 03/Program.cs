@@ -3,38 +3,59 @@ using Microsoft.Data.Sqlite;
 using Dapper;
 using Microsoft.VisualBasic;
 using Teste;
+using System.Net.Http.Headers;
 
 // var obj = new Contato{
 //         Id = "5",
 //         Nome = "Zé",
 //         Email = "ze@gmail.com"
 //     };
-    
-    //reflection
-    // var tipo = obj.GetType();
-    // Console.WriteLine(tipo.FullName);
-    // foreach(var prop in tipo.GetProperties()){
-    //     Console.WriteLine(prop.Name + ":" + prop.GetValue(obj));
-    // }
 
-    // var prop = tipo.GetProperty("Id");
+//reflection
+// var tipo = obj.GetType();
+// Console.WriteLine(tipo.FullName);
+// foreach(var prop in tipo.GetProperties()){
+//     Console.WriteLine(prop.Name + ":" + prop.GetValue(obj));
+// }
 
-    // if(prop != null)
-    // Console.WriteLine($"{prop.Name}: {prop.GetValue(obj)}");
+// var prop = tipo.GetProperty("Id");
 
-/*using (var conexao = new SqliteConnection("Data Source=db/dados.db")){
+// if(prop != null)
+// Console.WriteLine($"{prop.Name}: {prop.GetValue(obj)}");
+
+using (var conexao = new SqliteConnection("Data Source=db/dados.db")){
     conexao.Open();
     
-    var obj = new Contato{
+    var objeto = new Contato{
         Id = "5",
-        Nome = "Zé",
-        Email = "ze@gmail.com"
+        Nome = "tiao obrabo",
+        Email = "obrabo@gmail.com"
     };
 
-    const string sql = "INSERT INTO Contato(id, nome, email) VALUES (@Id, @Nome, @Email)";
+    /* const string sql = "INSERT INTO Contato(id, nome, email) VALUES (@Id, @Nome, @Email)";
+     const string sql = "UPDATE Contato SET nome = @Nome, email = @Email WHERE id = @Id";
+     const string sql = "DELETE FROM Contato WHERE id = @Id";
+
+    */
+
+    const string sql = "SELECT * FROM contato WHERE id = @Id";
+    var obj = conexao.QuerySingle<Contato>(sql,new {Id = 1});
+
+    Console.WriteLine(obj.Nome + " - " + obj.Email);
+
+    /*
+    const string sql = "SELECT * FROM contato ORDER BY nome";*/
+   
+   /* const string sql = "SELECT * FROM contato WHERE nome LIKE @parteNome ORDER BY nome";
+
+    var objetos = conexao.Query<Contato>(sql, new{ ParteNome = "%n%"});
+    foreach(var obj in objetos)
+    {
+        Console.WriteLine($"{obj.Nome} - {obj.Email}");
+    }
     
-    conexao.Execute(sql, obj);
-}*/
+    // conexao.Execute(sql, obj);*/
+}
 
 // conexao.Close(); "using" o torna desnecessario. 
 /*using(var conexao = new SqliteConnection("Data Source=db/dados.db")){
