@@ -18,6 +18,7 @@ arvoreBST.inserir(105);
 arvoreBST.inserir(107);
 arvoreBST.inserir(350);
 
+console.log(arvoreBST);
 BuscaBLargura.buscar(arvoreBST.raiz);
 
 
