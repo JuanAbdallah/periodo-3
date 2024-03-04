@@ -11,7 +11,12 @@
         <h1>Calcular</h1>
     </div>
     <div class="body">
-        <h1>O RESULTADO É: </h1>
+        <!--JSP - Java Server Pages -->
+        <%
+        String v1 = request.getParameter("valor");
+        String nome = request.getParameter("nome");
+        %>
+        <h1>Senhor <% out.print(nome); %> O RESULTADO É: <% out.print(v1); %> </h1>
     </div>
 
     <script></script>
