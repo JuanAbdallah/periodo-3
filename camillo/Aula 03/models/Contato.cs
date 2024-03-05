@@ -1,5 +1,5 @@
-namespace Teste;
-class Contato
+namespace Aula_03.models;
+public class Contato
 {
     public string Id { get;set;}="";
     public string Nome { get; set;}="";

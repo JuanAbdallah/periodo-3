@@ -31,11 +31,14 @@ public class QuartoServlet extends HttpServlet {
             c.setOperador(v3);
 
             RequestDispatcher rd = req.getRequestDispatcher("respostaForward.jsp?nome=zezin");
+            req.setAttribute("calc",c.operacao());
+            req.setAttribute("obj",c);
+
             rd.forward(req,resp);
         } catch (ServletException e) {
-            System.out.println("DEU RUIM!");
+            System.out.println("DEU RUIM!" + e.getMessage());
         } catch (IOException e) {
-            System.out.println("DEU RUIM!");
+            System.out.println("DEU RUIM!"+ e.getMessage());
         }
     }
 

@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+<%@ page import="br.edu.vianna.model.Calculadora"%0>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,8 +16,10 @@
     <div class="body">
         <%
          String nome  = request.getParameter("nome");
+         double calc = (Double)request.getAttribute("calc");
+         Calculadora obj = (Calculadora)request.getAttribute("obj");
         %>
-        <h1> <% out.print(nome); %>  </h1>
+        <h1> <% out.print(nome); %> <br> resultado é <% out.print(obj.operacao()); %> </h1>
     </div>
 
     <script></script>

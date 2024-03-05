@@ -2,8 +2,8 @@
 using Microsoft.Data.Sqlite;
 using Dapper;
 using Microsoft.VisualBasic;
-using Teste;
 using System.Net.Http.Headers;
+using Aula_03.models;
 
 // var obj = new Contato{
 //         Id = "5",
