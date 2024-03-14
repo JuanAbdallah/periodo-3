@@ -7,11 +7,5 @@ export default class Rastreador{
         this.vertice = vertice;
         this.anterior = anterior;
     }
-    
-    imprimeCaminho(){
-        while(atual.anterior != null){
-            
-        }
-    }
-    
+
 }

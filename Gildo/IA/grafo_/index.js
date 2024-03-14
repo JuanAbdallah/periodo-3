@@ -1,5 +1,5 @@
-import Grafo from "./Grafo.js";
-import Vertice from "./Vertice.js";
+import Grafo from "./Grafo";
+import Vertice from "./Vertice";
 
 
 
@@ -14,13 +14,13 @@ let e = new Vertice("e",5);
 let gr = new Grafo(s,t);
 
 
-s.addAresta(a,3);
-s.addAresta(b,2);
-a.addAresta(c,5);
-c.addAresta(t,3);
-t.addAresta(d,4);
-b.addAresta(d,7);
-b.addAresta(e,7);
-d.addAresta(e,2);
+s.adicionarAresta(a,3);
+s.adicionarAresta(b,2);
+a.adicionarAresta(c,5);
+c.adicionarAresta(t,3);
+t.adicionarAresta(d,4);
+b.adicionarAresta(d,7);
+b.adicionarAresta(e,7);
+d.adicionarAresta(e,2);
 
 console.log(s.getOrdenados());

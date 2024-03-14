@@ -14,16 +14,16 @@ let g = new Vertice("g",2.5);
 
 let grafo = new Grafo(s,t);
 
-s.addAresta(a,3.1);
-s.addAresta(d,4.9);
-a.addAresta(b,3.1);
-d.addAresta(e,2.2);
-e.addAresta(f,2.2);
-f.addAresta(b,5.1);
-f.addAresta(g,2.2);
-b.addAresta(f,5.1);
-b.addAresta(c,3.5);
-c.addAresta(t,4.8);
-g.addAresta(t,2.5);
+s.adicionarAresta(a,3.1);
+s.adicionarAresta(d,4.9);
+a.adicionarAresta(b,3.1);
+d.adicionarAresta(e,2.2);
+e.adicionarAresta(f,2.2);
+f.adicionarAresta(b,5.1);
+f.adicionarAresta(g,2.2);
+b.adicionarAresta(f,5.1);
+b.adicionarAresta(c,3.5);
+c.adicionarAresta(t,4.8);
+g.adicionarAresta(t,2.5);
 
-console.log(grafo.buscarMelhorEscolha());
+console.log(s.getOrdernados());
