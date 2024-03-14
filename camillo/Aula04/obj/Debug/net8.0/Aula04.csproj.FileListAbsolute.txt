@@ -1,0 +1,14 @@
+/home/professor/Documentos/Camillo/Aula04/bin/Debug/net8.0/Aula04
+/home/professor/Documentos/Camillo/Aula04/bin/Debug/net8.0/Aula04.deps.json
+/home/professor/Documentos/Camillo/Aula04/bin/Debug/net8.0/Aula04.runtimeconfig.json
+/home/professor/Documentos/Camillo/Aula04/bin/Debug/net8.0/Aula04.dll
+/home/professor/Documentos/Camillo/Aula04/bin/Debug/net8.0/Aula04.pdb
+/home/professor/Documentos/Camillo/Aula04/obj/Debug/net8.0/Aula04.GeneratedMSBuildEditorConfig.editorconfig
+/home/professor/Documentos/Camillo/Aula04/obj/Debug/net8.0/Aula04.AssemblyInfoInputs.cache
+/home/professor/Documentos/Camillo/Aula04/obj/Debug/net8.0/Aula04.AssemblyInfo.cs
+/home/professor/Documentos/Camillo/Aula04/obj/Debug/net8.0/Aula04.csproj.CoreCompileInputs.cache
+/home/professor/Documentos/Camillo/Aula04/obj/Debug/net8.0/Aula04.dll
+/home/professor/Documentos/Camillo/Aula04/obj/Debug/net8.0/refint/Aula04.dll
+/home/professor/Documentos/Camillo/Aula04/obj/Debug/net8.0/Aula04.pdb
+/home/professor/Documentos/Camillo/Aula04/obj/Debug/net8.0/Aula04.genruntimeconfig.cache
+/home/professor/Documentos/Camillo/Aula04/obj/Debug/net8.0/ref/Aula04.dll

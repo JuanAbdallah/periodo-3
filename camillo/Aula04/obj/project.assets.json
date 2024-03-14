@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/aluno/.nuget/packages/": {}
+    "/home/professor/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/aluno/Área de Trabalho/periodo-3/camillo/Aula04/Aula04.csproj",
+      "projectUniqueName": "/home/professor/Documentos/Camillo/Aula04/Aula04.csproj",
       "projectName": "Aula04",
-      "projectPath": "/home/aluno/Área de Trabalho/periodo-3/camillo/Aula04/Aula04.csproj",
-      "packagesPath": "/home/aluno/.nuget/packages/",
-      "outputPath": "/home/aluno/Área de Trabalho/periodo-3/camillo/Aula04/obj/",
+      "projectPath": "/home/professor/Documentos/Camillo/Aula04/Aula04.csproj",
+      "packagesPath": "/home/professor/.nuget/packages/",
+      "outputPath": "/home/professor/Documentos/Camillo/Aula04/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/aluno/.nuget/NuGet/NuGet.Config"
+        "/home/professor/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

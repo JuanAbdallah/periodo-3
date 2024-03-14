@@ -9,9 +9,15 @@ export default class Rastreador{
     }
     
     imprimeCaminho(){
+        let atual = this;
+        let saida;
+        saida += atual.vertice.valor;
+        
         while(atual.anterior != null){
-            
+            atual = atual.anterior;
+            saida += "-->" + atual.vertice.valor;
         }
     }
+        
     
 }

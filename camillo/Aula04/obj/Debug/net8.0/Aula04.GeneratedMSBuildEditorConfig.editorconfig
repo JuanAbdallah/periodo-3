@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Aula04
-build_property.ProjectDir = /home/aluno/Área de Trabalho/periodo-3/camillo/Aula04/
+build_property.ProjectDir = /home/professor/Documentos/Camillo/Aula04/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

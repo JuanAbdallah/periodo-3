@@ -26,4 +26,5 @@ b.addAresta(c,3.5);
 c.addAresta(t,4.8);
 g.addAresta(t,2.5);
 
-console.log(grafo.buscarMelhorEscolha());
+let caminho = buscarMelhorEscolha();
+caminho.imprimeCaminho();

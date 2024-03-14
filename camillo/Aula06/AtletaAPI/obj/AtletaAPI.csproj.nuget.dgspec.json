@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/professor/Documentos/Camillo/Aula04/Aula04.csproj": {}
+    "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06/AtletaAPI/AtletaAPI.csproj": {}
   },
   "projects": {
-    "/home/professor/Documentos/Camillo/Aula04/Aula04.csproj": {
+    "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06/AtletaAPI/AtletaAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/professor/Documentos/Camillo/Aula04/Aula04.csproj",
-        "projectName": "Aula04",
-        "projectPath": "/home/professor/Documentos/Camillo/Aula04/Aula04.csproj",
-        "packagesPath": "/home/professor/.nuget/packages/",
-        "outputPath": "/home/professor/Documentos/Camillo/Aula04/obj/",
+        "projectUniqueName": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06/AtletaAPI/AtletaAPI.csproj",
+        "projectName": "AtletaAPI",
+        "projectPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06/AtletaAPI/AtletaAPI.csproj",
+        "packagesPath": "/home/aluno/.nuget/packages/",
+        "outputPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06/AtletaAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/professor/.nuget/NuGet/NuGet.Config"
+          "/home/aluno/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,6 +37,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -49,6 +59,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
