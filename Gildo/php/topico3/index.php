@@ -7,14 +7,15 @@
 // require_once "./Financas/Conta.php";
 // require_once "./Seguranca/Conta.php";
 
-use Financa\Conta as ContaF;
-use Seguranca\Conta as ContaS;
+
 
 spl_autoload_register(function ($classe){
     
-    echo "fez o require do {$classe}.php";
-    require_once str_replace('\\','/',$classe.'.php');
+    echo "fez o require do {$classe}.php<br>";
+    require_once str_replace('\\','/',$classe).'.php';
 });
+use Financas\Conta as ContaF;
+use Seguranca\Conta as ContaS;
 
 $func1 = new Funcionario("juca",2000,123);
 $func2 = new Funcionario("maria",2000,1234);

@@ -1,5 +1,5 @@
 <?php
-namespace Financa;
+namespace Financas;
 
 
 class Conta{
