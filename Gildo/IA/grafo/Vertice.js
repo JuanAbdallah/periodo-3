@@ -1,37 +1,45 @@
-import Arestas from "./Arestas.js";
+import Aresta from "./Aresta.js";
 
 export default class Vertice{
-    
     valor = "";
+    heuristica = null;
     adjacentes = [];
-    heuristica = 0;
 
-    constructor(valor,heuristica){
+    constructor(valor, heuristica){
         this.valor = valor;
         this.heuristica = heuristica;
     }
 
+    BuscaAresta(vertice){
+        let arestaEncontrada = null;
+        this.adjacentes.forEach(aresta=>{
+            if(aresta.destino == vertice){
+                arestaEncontrada = aresta;
+            }
+        });
+        return arestaEncontrada;
+    }
 
-    addAresta(destino,peso) {
-        this.adjacentes.push(new Arestas(this,destino,peso));
+    adicionarAresta(destino,peso){
+        this.adjacentes.push(new Aresta(this, destino,peso))
     }
 
     getOrdenados(){
         this.adjacentes.sort((a,b)=>{
-            if(a.destino.heuristica < b.destino.heuristica){
+            if (a.destino.heuristica < b.destino.heuristica){
                 return -1;
-            } else if(a.destino.heuristica > b.destino.heuristica) {
+            }else if (a.destino.heuristica > b.destino.heuristica) {
                 return 1;
-            }else{
-                return 0;
             }
+
+            return 0;
         });
 
         let ordenados = [];
-        this.adjacentes.forEach( aresta => {
+        this.adjacentes.forEach( aresta=>{
             ordenados.push(aresta.destino);
-        });
+        })
 
-        return ordenados;
+        return ordenados; //vertices adjacentes ordenados pela heuristica
     }
 }

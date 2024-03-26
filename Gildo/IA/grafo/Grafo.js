@@ -1,33 +1,43 @@
 import Rastreador from "./Rastreador.js";
+import FilaAbertos from "./filaAbertos.js";
 
 export default class Grafo{
     inicio = null;
     meta = null;
 
-    constructor(inicio, meta){
+    constructor(inicio,meta){
         this.inicio = inicio;
         this.meta = meta;
     }
 
-    buscarMelhorEscolha(){
-      let fila = []; //Array de rastreadores que vão indicar o caminho
-      let ordenados = []; //Array de verticies adjacentes ordenados pela heuristica getOrdenados()
-      let atual;//Rastreador atual
+    buscaMelhorEscolha(){
+       let fila = []; //Array de Rastreadores que vão indicar o caminho
+       let ordenados = []; // Array de vertices adjacentes ordenados pela heuristca getOrdenados();
+       let atual; //Rastreador atual
+       
+       fila.push(new Rastreador(this.inicio,null));
 
-      fila.push(new Rastreador(this.inicio,null));
+       while (fila.length > 0) {
+        		
+            atual = fila.shift();
+            if (atual.vertice == this.meta){
+                return atual;
+            }else{
+                ordenados = atual.vertice.getOrdenados();
+                ordenados.forEach(adjacente => {
+                    fila.push(new Rastreador(adjacente,atual));
+                });
+            }
 
-      while(fila.length >0){
-        
-        atual = fila.shift();
-        if(atual.vertice == this.meta){
-            return atual;
-        }else{
-            ordenados = atual.vertice.getOrdenados();
-            ordenados.forEach(adjacente => {
-              fila.push(new Rastreador(adjacente,atual));
-            });
-        }
-      }
-      return null;
+       }       
+       
+       return null;
+    }
+
+    buscaAestrela(){
+      let abertos = new FilaAbertos();
+      let atual;
+      let fechados = new Map();
+      abertos.adicionar(new Rastreador(this.inicio, null,0));
     }
 }
