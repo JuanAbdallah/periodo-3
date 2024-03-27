@@ -1,0 +1,12 @@
+/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/StringLibrary/bin/Debug/net8.0/StringLibrary.deps.json
+/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/StringLibrary/bin/Debug/net8.0/StringLibrary.dll
+/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/StringLibrary/bin/Debug/net8.0/StringLibrary.pdb
+/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/StringLibrary/obj/Debug/net8.0/StringLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/StringLibrary/obj/Debug/net8.0/StringLibrary.AssemblyInfoInputs.cache
+/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/StringLibrary/obj/Debug/net8.0/StringLibrary.AssemblyInfo.cs
+/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/StringLibrary/obj/Debug/net8.0/StringLibrary.csproj.CoreCompileInputs.cache
+/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/StringLibrary/obj/Debug/net8.0/StringLibrary.sourcelink.json
+/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/StringLibrary/obj/Debug/net8.0/StringLibrary.dll
+/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/StringLibrary/obj/Debug/net8.0/refint/StringLibrary.dll
+/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/StringLibrary/obj/Debug/net8.0/StringLibrary.pdb
+/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/StringLibrary/obj/Debug/net8.0/ref/StringLibrary.dll

@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/ShowCase/ShowCase.csproj": {}
+  },
+  "projects": {
+    "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/ShowCase/ShowCase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/ShowCase/ShowCase.csproj",
+        "projectName": "ShowCase",
+        "projectPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/ShowCase/ShowCase.csproj",
+        "packagesPath": "/home/aluno/.nuget/packages/",
+        "outputPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/ShowCase/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/aluno/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/StringLibrary/StringLibrary.csproj": {
+                "projectPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/StringLibrary/StringLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/StringLibrary/StringLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/StringLibrary/StringLibrary.csproj",
+        "projectName": "StringLibrary",
+        "projectPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/StringLibrary/StringLibrary.csproj",
+        "packagesPath": "/home/aluno/.nuget/packages/",
+        "outputPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula7/StringLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/aluno/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
