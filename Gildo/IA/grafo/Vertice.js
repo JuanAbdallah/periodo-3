@@ -10,7 +10,7 @@ export default class Vertice{
         this.heuristica = heuristica;
     }
 
-    BuscaAresta(vertice){
+    buscarAresta(vertice){
         let arestaEncontrada = null;
         this.adjacentes.forEach(aresta=>{
             if(aresta.destino == vertice){

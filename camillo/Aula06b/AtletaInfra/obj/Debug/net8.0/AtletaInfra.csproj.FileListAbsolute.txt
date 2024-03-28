@@ -1,0 +1,12 @@
+/home/professor/Documentos/Camillo/Aula06b/AtletaInfra/bin/Debug/net8.0/AtletaInfra.deps.json
+/home/professor/Documentos/Camillo/Aula06b/AtletaInfra/bin/Debug/net8.0/AtletaInfra.dll
+/home/professor/Documentos/Camillo/Aula06b/AtletaInfra/bin/Debug/net8.0/AtletaInfra.pdb
+/home/professor/Documentos/Camillo/Aula06b/AtletaInfra/obj/Debug/net8.0/AtletaInfra.csproj.AssemblyReference.cache
+/home/professor/Documentos/Camillo/Aula06b/AtletaInfra/obj/Debug/net8.0/AtletaInfra.GeneratedMSBuildEditorConfig.editorconfig
+/home/professor/Documentos/Camillo/Aula06b/AtletaInfra/obj/Debug/net8.0/AtletaInfra.AssemblyInfoInputs.cache
+/home/professor/Documentos/Camillo/Aula06b/AtletaInfra/obj/Debug/net8.0/AtletaInfra.AssemblyInfo.cs
+/home/professor/Documentos/Camillo/Aula06b/AtletaInfra/obj/Debug/net8.0/AtletaInfra.csproj.CoreCompileInputs.cache
+/home/professor/Documentos/Camillo/Aula06b/AtletaInfra/obj/Debug/net8.0/AtletaInfra.dll
+/home/professor/Documentos/Camillo/Aula06b/AtletaInfra/obj/Debug/net8.0/refint/AtletaInfra.dll
+/home/professor/Documentos/Camillo/Aula06b/AtletaInfra/obj/Debug/net8.0/AtletaInfra.pdb
+/home/professor/Documentos/Camillo/Aula06b/AtletaInfra/obj/Debug/net8.0/ref/AtletaInfra.dll

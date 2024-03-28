@@ -1,13 +1,16 @@
 export default class Rastreador{
     vertice = null;
     anterior = null;
+    heuristica = null;
+    custo = 0;
 
     constructor(vertice,anterior, heuristica){
         this.vertice = vertice;
         this.anterior = anterior;
-        this.custo = heuristica;
+        this.heuristica = heuristica;
+        
         if(anterior != null){
-            this.custo = this.anterior.vertice.buscarAresta(this.vertice).peso;
+            this.custo = this.anterior.custo + this.anterior.vertice.buscarAresta(this.vertice).peso;
         }
     }
 
@@ -22,12 +25,7 @@ export default class Rastreador{
         console.log(saida+"\n");
     }
 
-    retornaCusto(){
-        let atual = this;
-        let custo = 0;
-        while(atual.anterior != null){
-            custo += atual.custo;
-            atual = atual.anterior;
-        }
+    retornaCustoTotal(){
+        this.custo + this.heuristica;
     }
 }

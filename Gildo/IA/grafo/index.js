@@ -11,7 +11,7 @@ let c = new Vertice("c",2);
 let d = new Vertice("d",4);
 let e = new Vertice("e",5);
 
-let gr = new Grafo(s,t);
+let grafo = new Grafo(s,t);
 
 
 s.adicionarAresta(a,3);
@@ -23,4 +23,5 @@ b.adicionarAresta(d,7);
 b.adicionarAresta(e,7);
 d.adicionarAresta(e,2);
 
-console.log(c.BuscaAresta());
+let caminho = grafo.buscaAestrela();
+console.log(caminho.imprimeCaminho() + caminho.retornaCustoTotal());

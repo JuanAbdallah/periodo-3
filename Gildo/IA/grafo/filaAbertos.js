@@ -3,30 +3,43 @@ export default class FilaAbertos{
 
     adicionar(rastreador){
         this.elementos.push(rastreador);
-        this.adjacentes.sort((a,b)=>{
-            if (a.custo < b.custo){
-                return -1;
-            }else if (a.custo > b.custo) {
-                return 1;
-            }
-
-            return 0;
-        });
+        this.ordenaFila();
     }
     
     retiraPrimeiro(){
         return this.elementos.shift();
+        
+    }
+
+    ordenaFila(){
+        this.elementos.sort((a,b)=>{
+            if(a.retornaCustoTotal() < b.retornaCustoTotal()){
+                return -1;
+            }else if (a.retornaCustoTotal() > b.retornaCustoTotal()){
+                return 1;
+            }
+            return 0
+        })
+    
     }
 
 
-    contem(vertice){
-        let verticeEncontrado = false;
+    buscaRastreador(vertice){
+        let RastreadorEncontrado = false;
 
         this.elementos.forEach( rastrador => {
             if( rastrador.vertice == vertice){
-                verticeEncontrado = true;
+                RastreadorEncontrado = rastrador;
             }
         })
-        return verticeEncontrado;
+        return RastreadorEncontrado;
+    }
+
+    substituirRastreador(rastradorAntigo,rastreadorNovo){
+        let indeiceAntigo = this.elementos.indexOf(rastradorAntigo);
+
+        this.elementos[indeiceAntigo] = rastreadorNovo;
+
+        this.ordenaFila();
     }
 }

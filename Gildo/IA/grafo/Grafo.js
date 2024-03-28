@@ -35,9 +35,35 @@ export default class Grafo{
     }
 
     buscaAestrela(){
+      
       let abertos = new FilaAbertos();
       let atual;
       let fechados = new Map();
       abertos.adicionar(new Rastreador(this.inicio, null,0));
+      atual = abertos.retiraPrimeiro();
+      while(atual != null){
+        if(atual.vertice == this.meta){
+          return atual;
+        }else{
+          fechados.set(atual.vertice.valor, atual);
+          atual.vertice.adjacentes.forEach(aresta =>{
+            let vertice = aresta.destino;
+            if(!fechados.has(vertice.valor)){
+              let rastradorAntigo = abertos.buscaRastreador(vertice);
+              let rastreadorNovo = new Rastreador(vertice,atual,vertice.heuristica)
+              if(!rastradorAntigo){
+                abertos.adicionar(rastreadorNovo);
+              }else{
+                if(rastradorAntigo.retornaCustoTotal() > rastreadorNovo.retornaCustoTotal()){
+                  abertos.substituirRastreador(rastradorAntigo,rastreadorNovo)
+                } 
+              }
+            }
+          });
+        }
+        atual = abertos.retiraPrimeiro();
+      }
+
+        return null;
     }
 }

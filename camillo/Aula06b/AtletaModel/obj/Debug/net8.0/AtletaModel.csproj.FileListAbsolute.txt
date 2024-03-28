@@ -1,0 +1,11 @@
+/home/professor/Documentos/Camillo/Aula06b/AtletaModel/bin/Debug/net8.0/AtletaModel.deps.json
+/home/professor/Documentos/Camillo/Aula06b/AtletaModel/bin/Debug/net8.0/AtletaModel.dll
+/home/professor/Documentos/Camillo/Aula06b/AtletaModel/bin/Debug/net8.0/AtletaModel.pdb
+/home/professor/Documentos/Camillo/Aula06b/AtletaModel/obj/Debug/net8.0/AtletaModel.GeneratedMSBuildEditorConfig.editorconfig
+/home/professor/Documentos/Camillo/Aula06b/AtletaModel/obj/Debug/net8.0/AtletaModel.AssemblyInfoInputs.cache
+/home/professor/Documentos/Camillo/Aula06b/AtletaModel/obj/Debug/net8.0/AtletaModel.AssemblyInfo.cs
+/home/professor/Documentos/Camillo/Aula06b/AtletaModel/obj/Debug/net8.0/AtletaModel.csproj.CoreCompileInputs.cache
+/home/professor/Documentos/Camillo/Aula06b/AtletaModel/obj/Debug/net8.0/AtletaModel.dll
+/home/professor/Documentos/Camillo/Aula06b/AtletaModel/obj/Debug/net8.0/refint/AtletaModel.dll
+/home/professor/Documentos/Camillo/Aula06b/AtletaModel/obj/Debug/net8.0/AtletaModel.pdb
+/home/professor/Documentos/Camillo/Aula06b/AtletaModel/obj/Debug/net8.0/ref/AtletaModel.dll
