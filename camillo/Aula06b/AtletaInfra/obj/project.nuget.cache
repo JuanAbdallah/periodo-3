@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "wc7JCat4ko5DN8NEbs4TOICGyUXRhnIJnoQwHKTFsDKD5zN05CGJgBJWJWhX02pc117V36UtUsh9yL9yIGaSfQ==",
+  "dgSpecHash": "W/or/6L0oOtnLjO07/+deAUxZgzldgj341l8NUaxMZde1I9iIMwvD6c7K1MJOxwhQx6sAMorD0fSWzza72UZUg==",
   "success": true,
-  "projectFilePath": "/home/professor/Documentos/Camillo/Aula06b/AtletaInfra/AtletaInfra.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaInfra/AtletaInfra.csproj",
+  "expectedPackageFiles": [
+    "/home/aluno/.nuget/packages/dapper/2.1.35/dapper.2.1.35.nupkg.sha512",
+    "/home/aluno/.nuget/packages/microsoft.data.sqlite/8.0.3/microsoft.data.sqlite.8.0.3.nupkg.sha512",
+    "/home/aluno/.nuget/packages/microsoft.data.sqlite.core/8.0.3/microsoft.data.sqlite.core.8.0.3.nupkg.sha512",
+    "/home/aluno/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.6/sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
+    "/home/aluno/.nuget/packages/sqlitepclraw.core/2.1.6/sqlitepclraw.core.2.1.6.nupkg.sha512",
+    "/home/aluno/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.6/sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
+    "/home/aluno/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.6/sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+    "/home/aluno/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
   "logs": []
 }

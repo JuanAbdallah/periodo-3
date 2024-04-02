@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/professor/.nuget/packages/": {}
+    "/home/aluno/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/professor/Documentos/Camillo/Aula06b/AtletaModel/AtletaModel.csproj",
+      "projectUniqueName": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaModel/AtletaModel.csproj",
       "projectName": "AtletaModel",
-      "projectPath": "/home/professor/Documentos/Camillo/Aula06b/AtletaModel/AtletaModel.csproj",
-      "packagesPath": "/home/professor/.nuget/packages/",
-      "outputPath": "/home/professor/Documentos/Camillo/Aula06b/AtletaModel/obj/",
+      "projectPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaModel/AtletaModel.csproj",
+      "packagesPath": "/home/aluno/.nuget/packages/",
+      "outputPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaModel/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/professor/.nuget/NuGet/NuGet.Config"
+        "/home/aluno/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

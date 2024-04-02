@@ -1,20 +1,87 @@
 {
   "format": 1,
   "restore": {
-    "/home/professor/Documentos/Camillo/Aula06b/AtletaInfra/AtletaInfra.csproj": {}
+    "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaInfra/AtletaInfra.csproj": {}
   },
   "projects": {
-    "/home/professor/Documentos/Camillo/Aula06b/AtletaInfra/AtletaInfra.csproj": {
+    "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaInfra/AtletaInfra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/professor/Documentos/Camillo/Aula06b/AtletaInfra/AtletaInfra.csproj",
+        "projectUniqueName": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaInfra/AtletaInfra.csproj",
         "projectName": "AtletaInfra",
-        "projectPath": "/home/professor/Documentos/Camillo/Aula06b/AtletaInfra/AtletaInfra.csproj",
-        "packagesPath": "/home/professor/.nuget/packages/",
-        "outputPath": "/home/professor/Documentos/Camillo/Aula06b/AtletaInfra/obj/",
+        "projectPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaInfra/AtletaInfra.csproj",
+        "packagesPath": "/home/aluno/.nuget/packages/",
+        "outputPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaInfra/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/professor/.nuget/NuGet/NuGet.Config"
+          "/home/aluno/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaModel/AtletaModel.csproj": {
+                "projectPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaModel/AtletaModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaModel/AtletaModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaModel/AtletaModel.csproj",
+        "projectName": "AtletaModel",
+        "projectPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaModel/AtletaModel.csproj",
+        "packagesPath": "/home/aluno/.nuget/packages/",
+        "outputPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaModel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/aluno/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
