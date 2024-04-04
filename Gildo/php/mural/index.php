@@ -1,6 +1,7 @@
 <?php
 
 require_once "Database.php";
+require_once "RecadoDAO.php";
 
 
 $db = new Database();
@@ -19,6 +20,7 @@ $con = $db->getConnection();
     <div class="formulario">
 <?php 
     require "formulario.php";
+    require "buscar.php";
 ?>
     </div>
     <div class="recados">

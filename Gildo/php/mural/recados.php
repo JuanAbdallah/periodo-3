@@ -23,6 +23,7 @@ if($result = $con->query($sql)):
             <th>Cidade</th>
             <th>Recado</th>
             <th>excluir</th>
+            <th>alterar</th>
         </tr>
 <?php
     while ($recado = $result->fetch_object('RecadoDAO')) {

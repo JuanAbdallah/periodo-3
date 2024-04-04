@@ -1,11 +1,11 @@
 <?php
 
 class RecadoDAO{
-    private $id;
-    private $nome;
-    private $email;
-    private $cidade;
-    private $texto;
+    public $id;
+    public $nome;
+    public $email;
+    public $cidade;
+    public $texto;
 
     function imprimelinhaTabela(){
         echo "
@@ -15,6 +15,7 @@ class RecadoDAO{
             <td> {$this->cidade} </td>
             <td> {$this->texto} </td>
             <td> <a href=\"index.php?excluir={$this->id}\">X</td>
+            <td> <a href=\"index.php?alterar={$this->id}\">X</td>
             </tr>\n
         ";
     }
