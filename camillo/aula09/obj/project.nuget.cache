@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qi0Fmv7JpvBTRA1gJbRJrZ8WykNnI/iiRj15LEfgP795U4zHpzoSsfiGQ4RIa8XjadWVaS5zNyTnveT1HAaCAQ==",
+  "dgSpecHash": "4ZOmQrvDOOUYzaQK228D0eiQ9MqHnJD+fnFSjizMQUR7SYj8x4FMYRZ+lu555Wuh6yRZBirYGUwJFkjXtXewBw==",
   "success": true,
   "projectFilePath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula09/aula09.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,7 @@
     "/home/aluno/.nuget/packages/microsoft.jsinterop.webassembly/8.0.0/microsoft.jsinterop.webassembly.8.0.0.nupkg.sha512",
     "/home/aluno/.nuget/packages/microsoft.net.illink.tasks/8.0.0/microsoft.net.illink.tasks.8.0.0.nupkg.sha512",
     "/home/aluno/.nuget/packages/microsoft.net.sdk.webassembly.pack/8.0.0/microsoft.net.sdk.webassembly.pack.8.0.0.nupkg.sha512",
+    "/home/aluno/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/home/aluno/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
     "/home/aluno/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
     "/home/aluno/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512",

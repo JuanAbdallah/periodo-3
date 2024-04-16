@@ -1030,3 +1030,8 @@
 /home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula09/obj/Debug/net8.0/refint/aula09.dll
 /home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula09/obj/Debug/net8.0/aula09.pdb
 /home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula09/obj/Debug/net8.0/ref/aula09.dll
+/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula09/bin/Debug/net8.0/wwwroot/_framework/Newtonsoft.Json.wasm
+/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula09/bin/Debug/net8.0/wwwroot/_framework/Newtonsoft.Json.wasm.gz
+/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula09/bin/Debug/net8.0/Newtonsoft.Json.dll
+/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula09/obj/Debug/net8.0/webcil/Newtonsoft.Json.wasm
+/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula09/obj/Debug/net8.0/compressed/xnzxzuefr7.gz

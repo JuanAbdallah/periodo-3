@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pnB21K5Fs/QuM4G/tCy+D4Vhxqf7bu74nBXYSY7dc8k=",
+  "Hash": "pa1W7p007oy1nBLZTza5tMb9YmuELLaUpXPf9C1P81g=",
   "Source": "aula09",
   "BasePath": "/",
   "Mode": "Root",
@@ -813,6 +813,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula09/obj/Debug/net8.0/webcil/netstandard.wasm"
+    },
+    {
+      "Identity": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula09/bin/Debug/net8.0/wwwroot/_framework/Newtonsoft.Json.wasm",
+      "SourceId": "aula09",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula09/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula09/obj/Debug/net8.0/webcil/Newtonsoft.Json.wasm"
     },
     {
       "Identity": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula09/bin/Debug/net8.0/wwwroot/_framework/System.AppContext.wasm",
@@ -7577,6 +7596,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula09/bin/Debug/net8.0/wwwroot/_framework/System.Reflection.wasm"
+    },
+    {
+      "Identity": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula09/obj/Debug/net8.0/compressed/xnzxzuefr7.gz",
+      "SourceId": "aula09",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula09/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula09/bin/Debug/net8.0/wwwroot/_framework/Newtonsoft.Json.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula09/bin/Debug/net8.0/wwwroot/_framework/Newtonsoft.Json.wasm"
     },
     {
       "Identity": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/aula09/obj/Debug/net8.0/compressed/xp3ua6e6jw.gz",
