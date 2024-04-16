@@ -29,7 +29,7 @@
         <input type="checkbox" name="extras[]" value="garagem">Garagem<br>
         <input type="checkbox" name="extras[]" value="piscina">piscina <br>
         <input type="checkbox" name="extras[]" value="jardim">jardim <br>
-        <input type="hidden" name="user" value="<?=$_REQUEST["usuario"]??""; ?>">
+        <input type="hidden" name="user" value="<?php if($_REQUEST["usuario"]??); ?>">
         <input type="submit" value="Enviar">
     </form>
 </body>
