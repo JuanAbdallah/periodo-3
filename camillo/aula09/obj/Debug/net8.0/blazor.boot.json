@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "aula09",
   "resources": {
-    "hash": "sha256-0Hrxmh3XbrsiW17Dxw3X22jv6iD7BkuWY4wc5eYYKsQ=",
+    "hash": "sha256-aZDECCcCgUer2CV4EWbe4aN556E1EyeK6WzSClxuWEA=",
     "jsModuleNative": {
       "dotnet.native.8.0.0.oyw4l0flyu.js": "sha256-LjLDIz9+J7uuiwMlQ4HbNx2BnSpphOtO2MwkoI28vdI="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-cDuLeL3OCtVtiid/dyex1MVgbuzDSRwZxKzuP2Dp4mg=",
       "netstandard.wasm": "sha256-A0h86SDieTMoU/wU2JTszWCsUmMuguDcbap0b0BzsmI=",
       "System.Private.CoreLib.wasm": "sha256-/0DNIm/T0C07X7Tuz5uR8JvVCoAfEE2MnfPUSjyS9xc=",
-      "aula09.wasm": "sha256-ASeH908Hb4yj2LUYGTFMZg9wDndUo4cFNUiGIUcb6c0="
+      "aula09.wasm": "sha256-VoNMF1YxICgrbZCLTsMWBYT3iApHlYtAi988Y3AG53c="
     },
     "pdb": {
-      "aula09.pdb": "sha256-LOdmDcrKOMFgM8rHapbnxvazgDOSfzBL13jKjANaeTs="
+      "aula09.pdb": "sha256-tAHueXJQGjHz7XBWQqBU7/knk4bBLmUCQEH2pk3j2xU="
     }
   },
   "cacheBootResources": true,
