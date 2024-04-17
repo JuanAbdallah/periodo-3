@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+</head>
+<body>
+    <script>
+        //criando o cojunto de treinamento
+        const xs = tf.tensor([0,1,2,3,4]);
+        const ys = xs.mul(1.2).add(5);
+
+        //define o modelo de de regressão linear
+        const model = tf.sequential();
+        model.add(tf.layers.dense({units:1, inputShape:[1]}));
+
+        //especifica a função de perda e o otmizador
+        model.compile({loss:'meanSquaredError',optimizer:'sgd'});
+
+        //treina o método
+        model.fit(xs,ys,{epochs:500}).then(()=>{myFunction()});
+
+        //usa o modelo
+        function myFunction(){
+            const max = 10;
+            const xArr = [];
+            const yArr = [];
+            for(let x = 0; x <= xMax; x++){
+                let result = model.predict(tf.tensor([Number(x)]));
+                result.data().then(y =>{
+                    xArr.push(x);
+                    yArr.push(Number(y));
+                    if(x == xMax){plot(xArr,yArr)}
+                })
+            }
+        }
+        //plota os dados na tela
+        function plot(xArr,yArr){
+            //define os valores
+            const data = [{x:xArr, y:yArr,mode:"markers", type:"scatter"}];
+
+            //define o layout
+            const layout = {
+                xaxis: {range: [0,10]},
+                yaxis: {range: [0,20]}
+            };
+
+            Potly.newPlot('tensor', data, layout)
+        }
+
+    </script>
+</body>
+</html>
