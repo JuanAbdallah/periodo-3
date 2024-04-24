@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ahz6kg3wwYD6mmyP7jKWYFCjuvHak1GgBoeQwcdoh96HSWQdHqnl9OqQk07n2J62o1EZdBCTP5re5PBB8XiFdQ==",
+  "dgSpecHash": "HFDL3UyFi27UW3AT5Fv+qLr+2AWAi3X09EHg71m/01D8BDXzI0OezKpwFo/tb0wujxfwIfPd7qDWSjd02L3VIw==",
   "success": true,
-  "projectFilePath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaApi/AtletaApi.csproj",
+  "projectFilePath": "/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaApi/AtletaApi.csproj",
   "expectedPackageFiles": [
     "/home/aluno/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/home/aluno/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",

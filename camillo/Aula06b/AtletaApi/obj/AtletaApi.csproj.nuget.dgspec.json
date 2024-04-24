@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaApi/AtletaApi.csproj": {}
+    "/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaApi/AtletaApi.csproj": {}
   },
   "projects": {
-    "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaApi/AtletaApi.csproj": {
+    "/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaApi/AtletaApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaApi/AtletaApi.csproj",
+        "projectUniqueName": "/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaApi/AtletaApi.csproj",
         "projectName": "AtletaApi",
-        "projectPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaApi/AtletaApi.csproj",
+        "projectPath": "/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaApi/AtletaApi.csproj",
         "packagesPath": "/home/aluno/.nuget/packages/",
-        "outputPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaApi/obj/",
+        "outputPath": "/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/aluno/.nuget/NuGet/NuGet.Config"

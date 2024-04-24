@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaInfra/AtletaInfra.csproj": {}
+    "/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaInfra/AtletaInfra.csproj": {}
   },
   "projects": {
-    "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaInfra/AtletaInfra.csproj": {
+    "/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaInfra/AtletaInfra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaInfra/AtletaInfra.csproj",
+        "projectUniqueName": "/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaInfra/AtletaInfra.csproj",
         "projectName": "AtletaInfra",
-        "projectPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaInfra/AtletaInfra.csproj",
+        "projectPath": "/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaInfra/AtletaInfra.csproj",
         "packagesPath": "/home/aluno/.nuget/packages/",
-        "outputPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaInfra/obj/",
+        "outputPath": "/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaInfra/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/aluno/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaModel/AtletaModel.csproj": {
-                "projectPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaModel/AtletaModel.csproj"
+              "/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaModel/AtletaModel.csproj": {
+                "projectPath": "/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaModel/AtletaModel.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaModel/AtletaModel.csproj": {
+    "/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaModel/AtletaModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaModel/AtletaModel.csproj",
+        "projectUniqueName": "/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaModel/AtletaModel.csproj",
         "projectName": "AtletaModel",
-        "projectPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaModel/AtletaModel.csproj",
+        "projectPath": "/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaModel/AtletaModel.csproj",
         "packagesPath": "/home/aluno/.nuget/packages/",
-        "outputPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaModel/obj/",
+        "outputPath": "/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaModel/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/aluno/.nuget/NuGet/NuGet.Config"

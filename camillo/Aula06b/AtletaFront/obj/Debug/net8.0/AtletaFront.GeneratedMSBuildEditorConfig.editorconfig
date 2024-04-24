@@ -1,0 +1,55 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = AtletaFront
+build_property.RootNamespace = AtletaFront
+build_property.ProjectDir = /home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaFront/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaFront
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaFront/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaFront/Pages/AtletaLista.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXRsZXRhTGlzdGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaFront/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaFront/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaFront/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV2VhdGhlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaFront/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaFront/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-g0vn0ieq2g
+
+[/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaFront/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-nuvj1x084z
