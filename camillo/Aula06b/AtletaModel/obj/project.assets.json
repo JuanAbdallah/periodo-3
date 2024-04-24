@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaModel/AtletaModel.csproj",
+      "projectUniqueName": "/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaModel/AtletaModel.csproj",
       "projectName": "AtletaModel",
-      "projectPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaModel/AtletaModel.csproj",
+      "projectPath": "/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaModel/AtletaModel.csproj",
       "packagesPath": "/home/aluno/.nuget/packages/",
-      "outputPath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaModel/obj/",
+      "outputPath": "/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaModel/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/aluno/.nuget/NuGet/NuGet.Config"

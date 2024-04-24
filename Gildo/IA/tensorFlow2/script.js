@@ -52,3 +52,5 @@ const model = createModel();
 
 //exibe modelo
 tfvis.show.modelSummary({name: "Modelo"},model);
+
+document.addEventListener("DOMContentLoaded", run);

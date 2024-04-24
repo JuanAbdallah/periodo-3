@@ -1,0 +1,27 @@
+@page "/atleta-lista"
+
+<h1>Atletas</h1>
+
+@if (Objetos == null)
+{
+    <p>CARREGANDO ETERNAMENTE</p>
+}
+else
+{
+    <p>@Objetos</p>
+}
+
+@code{
+    private string? Objetos {get; set;}
+
+    protected override async Task OnInitializedAsync()
+    {
+        var client = new System.Net.Http.HttpClient();
+       
+        using HttpResponseMessage response = await client.GetAsync("http://localhost:5024/api/atleta");
+        response.EnsureSuccessStatusCode();
+        string responseBody = await response.Content.ReadAsStringAsync();
+
+        Objetos = responseBody;
+    }
+}
