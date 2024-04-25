@@ -101,6 +101,7 @@ function convertToTensor(data){
 //exibe modelo
 tfvis.show.modelSummary({name: "Modelo"},model);
 
+<<<<<<< HEAD
 document.addEventListener("DOMContentLoaded", run);
 
 async function trainModel(model, inputs, labels){
@@ -129,3 +130,6 @@ async function trainModel(model, inputs, labels){
    
 
 }
+=======
+document.addEventListener("DOMContentLoaded", run);
+>>>>>>> d72856b6f979fddb2efe48fc3d18bd1fa0016b40
