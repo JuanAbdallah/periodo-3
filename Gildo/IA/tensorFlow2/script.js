@@ -132,3 +132,5 @@ async function trainModel(model, inputs, labels){
 }
 
 
+document.addEventListener("DOMContentLoaded", run);
+
