@@ -1,4 +1,0 @@
-
-6603:3306
-porta do host/porta do container
--d -v mapeamento de volume 
