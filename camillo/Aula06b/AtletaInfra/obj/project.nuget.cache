@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W/or/6L0oOtnLjO07/+deAUxZgzldgj341l8NUaxMZde1I9iIMwvD6c7K1MJOxwhQx6sAMorD0fSWzza72UZUg==",
+  "dgSpecHash": "3kndBVI74zKBL2xzsKORGHyf7oCoJuB/iCL8fT+wKHFLn7ZoVn+jJbPR3yA4UNgIrwCVRE66bjfkPHrvd2T62Q==",
   "success": true,
-  "projectFilePath": "/home/aluno/Área de Trabalho/Juan/periodo-3/camillo/Aula06b/AtletaInfra/AtletaInfra.csproj",
+  "projectFilePath": "/home/aluno/Documentos/Juan/periodo-3/camillo/Aula06b/AtletaInfra/AtletaInfra.csproj",
   "expectedPackageFiles": [
     "/home/aluno/.nuget/packages/dapper/2.1.35/dapper.2.1.35.nupkg.sha512",
     "/home/aluno/.nuget/packages/microsoft.data.sqlite/8.0.3/microsoft.data.sqlite.8.0.3.nupkg.sha512",

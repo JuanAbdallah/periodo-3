@@ -2,7 +2,11 @@
 let perceptron;
 
 let points = new Array(100);
+<<<<<<< HEAD
 let points2 = new Array(100);
+=======
+
+>>>>>>> 3c98977bf48b6dd42600760f41ca5c4ed99232df
 
 let trainning = true;
 
@@ -40,7 +44,10 @@ function draw(){
     drawLine();
     if(trainning){
         trainSinglePoint();
+<<<<<<< HEAD
         
+=======
+>>>>>>> 3c98977bf48b6dd42600760f41ca5c4ed99232df
     }
     
     
@@ -73,6 +80,7 @@ function trainSinglePoint(){
     }
     if(perceptron.consecutiveHints >= (points.length * accuracy)){//coloca a precisao desejada
         trainning = false
+<<<<<<< HEAD
         for (let i = 0; i < points2.length; i++) {
             points2[i] = new Point(random(-1,1),random(-1,1));
         }
@@ -81,5 +89,16 @@ function trainSinglePoint(){
                 point.show();
             });
             
+=======
+        let points2 = new Array(100)
+        for (let i = 0; i < points.length; i++) {
+            points2[i] = new Point(random(-1,1),random(-1,1));
+        }
+        points2.forEach( pt =>{
+            const inputs = [pt.x, pt.y, pt.bias];
+            const target = pt.label;
+            const guess = perceptron.guess(inputs);
+        });
+>>>>>>> 3c98977bf48b6dd42600760f41ca5c4ed99232df
     }
 }
