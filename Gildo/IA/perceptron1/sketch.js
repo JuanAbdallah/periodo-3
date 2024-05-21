@@ -2,7 +2,7 @@
 let perceptron;
 
 let points = new Array(100);
-let points2 = new Array(100);
+
 
 let trainning = true;
 
@@ -40,13 +40,11 @@ function draw(){
     drawLine();
     if(trainning){
         trainSinglePoint();
-        
     }
     
     
 
 }
-
 
 function drawLine(){
     stroke(0,0,255)
@@ -69,17 +67,23 @@ function trainSinglePoint(){
     trainningIndex++;
     if(trainningIndex == points.length){
         trainningIndex = 0;
-        
     }
     if(perceptron.consecutiveHints >= (points.length * accuracy)){//coloca a precisao desejada
         trainning = false
-        for (let i = 0; i < points2.length; i++) {
-            points2[i] = new Point(random(-1,1),random(-1,1));
+        let acertos = 0; 
+    let points2 = new Array(100);
+    for (let i = 0; i < points.length; i++) {
+        points2[i] = new Point(random(-1,1),random(-1,1));
+    }
+    points2.forEach(newPoint => {
+        const inputs = [newPoint.x, newPoint.y, newPoint.bias];
+        const target = newPoint.label;
+        const guess = perceptron.guess(inputs);
+        if (guess == target){
+            acertos++;
         }
-       
-            points2.forEach(point =>{
-                point.show();
-            });
-            
+    });
+    const acertostotais = acertos / 100;
+    console.log(`Precisão do perceptron: ${acertostotais}`);
     }
 }
